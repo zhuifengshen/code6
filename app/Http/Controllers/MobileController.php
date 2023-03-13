@@ -12,13 +12,13 @@ class MobileController extends Controller
         $page = Request::query('page', 1);
         $tab = Request::query('tab', 'all');
         $count = CodeLeak::query()->count();
-        $data = ['title' => '码小六', 'page' => $page, 'tab' => $tab, 'count' => $count];
+        $data = ['title' => '有米巡检系统', 'page' => $page, 'tab' => $tab, 'count' => $count];
         return view('mobile.home', $data);
     }
 
     public function login()
     {
-        $data = ['title' => '码小六'];
+        $data = ['title' => '有米巡检系统'];
         return view('mobile.login', $data);
     }
 }

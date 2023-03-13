@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Mail;
 
 class NotifyService
 {
-    const TEMPLATE_DEFAULT_TITLE = '码小六消息通知';
+    const TEMPLATE_DEFAULT_TITLE = '有米巡检系统消息通知';
     const TEMPLATE_DEFAULT_CONTENT = "开始时间：{{stime}}\n结束时间：{{etime}}\n本时段共有 {{count}} 条未审记录";
     const URL_TELEGRAM = 'https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s';
 

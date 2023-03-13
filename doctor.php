@@ -91,9 +91,9 @@ echo "PHP 已编译模块：$exts\n";
 
 echo DIVIDER."[ 系统信息 ]\n";
 
-// 码小六版本
+// 有米巡检系统版本
 $version = trim(file_get_contents(ROOT.'/version'));
-echo "码小六版本：$version\n";
+echo "有米巡检系统版本：$version\n";
 
 // 框架运行环境
 $appEnv = $env['APP_ENV'] ?? '无';

@@ -9,7 +9,7 @@ class LoginController extends Controller
 {
     public function view()
     {
-        $data = ['title' => '码小六'];
+        $data = ['title' => '有米巡检系统'];
         return view('login.index', $data);
     }
 

@@ -37,7 +37,7 @@ MYSQL_VOLUME_PATH=
 ---
 
 ## 启动容器
-启动容器，码小六将自动连接 MySQL 并导入数据表：
+启动容器，系统将自动连接 MySQL 并导入数据表：
 ```
 docker-compose --env-file .env.docker-compose up -d --build
 ```
